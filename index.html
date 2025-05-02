@@ -1,175 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- META TAGS (más de 3) -->
+  <!-- META TAGS -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Restaurante de comida tradicional argentina en Salta">
-  <meta name="keywords" content="restaurante, comida argentina, empanadas, locro, Salta">
-  <title>Restaurante El Buen Sabor | Comida Casera en Salta</title>
+  <meta name="description" content="Restaurante de comida tradicional argentina en Apóstoles">
+  <meta name="keywords" content="Restaurante, Pastas argentina, Misiones">
+  <title>Restaurante Dña. Julia | Comida Casera en Apóstoles</title>
   
-  <!-- ESTILOS EMBEBIDOS (con más de 5 propiedades CSS) -->
-  <style>
-    /* Variables CSS */
-    :root {
-      --color-primary: #8B0000;
-      --color-secondary: #f8f8f8;
-      --color-text: #333;
-    }
-    
-    /* Estilos generales */
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: var(--color-text);
-      background-color: #f9f9f9; /* Propiedad CSS 1: background-color */
-    }
-    
-    /* HEADER con logo (simulado con texto) */
-    header {
-      background-color: var(--color-primary); /* Propiedad CSS 2: background-color */
-      color: white;
-      padding: 2rem;
-      text-align: center;
-      border-bottom: 5px solid #600; /* Propiedad CSS 3: border */
-    }
-    
-    .logo {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-    
-    /* NAV con enlaces internos */
-    nav {
-      background-color: var(--color-secondary);
-      padding: 1rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Propiedad CSS 4: box-shadow */
-    }
-    
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none; /* Propiedad CSS 5: list-style */
-      padding: 0;
-      margin: 0;
-      flex-wrap: wrap;
-    }
-    
-    nav li {
-      margin: 0 1rem;
-    }
-    
-    nav a {
-      text-decoration: none; /* Propiedad CSS 6: text-decoration */
-      color: var(--color-primary);
-      font-weight: bold;
-      padding: 0.5rem;
-      transition: all 0.3s ease;
-    }
-    
-    nav a:hover {
-      color: white;
-      background-color: var(--color-primary);
-      border-radius: 4px; /* Propiedad CSS 7: border-radius */
-    }
-    
-    /* MAIN con secciones, artículo y aside */
-    main {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      gap: 2rem;
-    }
-    
-    section {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    article {
-      background-color: #fff9f9;
-      padding: 1.5rem;
-      border-left: 4px solid var(--color-primary);
-      margin-bottom: 2rem;
-    }
-    
-    aside {
-      background-color: var(--color-secondary);
-      padding: 1.5rem;
-      border-radius: 8px;
-      align-self: start; /* Alineación para que no se estire */
-    }
-    
-    /* TABLA */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-    }
-    
-    th, td {
-      padding: 0.75rem;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    
-    th {
-      background-color: var(--color-primary);
-      color: white;
-    }
-    
-    /* LISTA (desordenada) */
-    ul.features {
-      list-style-type: square;
-      padding-left: 1.5rem;
-    }
-    
-    ul.features li {
-      margin-bottom: 0.5rem;
-    }
-    
-    /* FOOTER */
-    footer {
-      background-color: var(--color-primary);
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    
-    .contact-info {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-    
-    /* Responsive */
-    @media (max-width: 768px) {
-      main {
-        grid-template-columns: 1fr;
-      }
-      
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- HEADER con título y logo -->
 <header>
-  <div class="logo" title="Logo Restaurante El Buen Sabor">🍴 El Buen Sabor</div>
-  <p>Comida casera con auténtico sabor argentino</p>
+  <div class="logo" title="Logo Restaurante Dña Julia">
+    <img src="fotos/Dna Julia-01.png" alt="Logo Restaurante Dña Julia">
+    <p>Comida casera con auténtico sabor argentino</p>
+  </div>
 </header>
 
 <!-- NAV con enlaces internos -->
@@ -188,9 +37,9 @@
   <div class="main-content">
     <!-- SECCIÓN 1 -->
     <section id="inicio">
-      <h2>Bienvenidos a El Buen Sabor</h2>
+      <h2>Bienvenidos a Dña Julia</h2>
       <p>Desde 2003, ofrecemos los platos más tradicionales de la cocina Misionera.</p>
-      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Interior del restaurante" loading="lazy" width="600" height="300">
+      <img src="fotos/mesa04.jpg" alt="Mesa servida en el restaurante" loading="lazy" style="max-width: 70%; height: auto;">
     </section>
     
     <!-- SECCIÓN 2 con TABLA -->
@@ -199,7 +48,7 @@
       <table>
         <thead>
           <tr>
-            <th align="left">Plato</th> <!-- align está obsoleto, pero lo usamos como requisito -->
+            <th align="left">Plato</th>
             <th align="left">Precio</th>
           </tr>
         </thead>
@@ -236,27 +85,37 @@
       <li>Cocina tradicional</li>
       <li>Ambiente familiar</li>
     </ul>
-    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Empanadas recién horneadas" loading="lazy">
-  </aside>
+    <img src="fotos/mesa02.jpg" alt="Mesa servida" loading="lazy" style="max-width: 70%; height: auto;">
+
 </main>
 
 <!-- FOOTER con información de contacto -->
-<footer>
-  <div class="contacto">
-    <div>
-      <h4>Contacto</h4>
-      <p>📍 Calle Falsa 123, Apostoles</p>
-      <p>📞 (0387) 123-4567</p>
-      <p>📧 contacto@elbuen-sabor.com</p>
-    </div>
-    <div>
-      <h4>Horarios</h4>
-      <p>Lunes a Sábado</p>
-      <p>12:00 - 15:30 / 20:00 - 23:30</p>
-    </div>
-  </div>
-  <p>&copy; 2025 Restaurante El Buen Sabor. Todos los derechos reservados.</p>
-</footer>
+<footer style="width: 100%; position: relative">
+  <table border="2" align="center" cellspacing="0" style="border-color: white;"">
+    <tr>
+      <td style="text-align: center;">
+        <div class="contacto">
+          <div>
+            <h3>Contacto</h3>
+            <p>📍 Calle Falsa 123, Apostoles</p>
+            <p>📞 (0387) 123-4567</p>
+            <p>📧 contacto@DñaJulia.com</p>
+          </div>
+        </div>
+      </td>
 
+      <td style="text-align: center;">
+        <div class="Horarios">
+          <div>
+            <h3>Horarios</h3>
+            <p>Lunes a Sábado</p>
+            <p>12:00 - 15:30 / 20:00 - 23:30</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>	
+  <p>&copy; 2025 Restaurante Dña Julia. Todos los derechos reservados.</p>
+</footer>
 </body>
 </html>
